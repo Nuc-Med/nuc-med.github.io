@@ -1,6 +1,6 @@
 # nuc-med.github.io
 
-Unlocking the Power of Nuclear Medicine (NM)
+Unlocking the Power of Nuclear Medicine (NM) ☢️
 
 Welcome to our initiative aimed at fostering greater awareness of the remarkable field of Nuclear Medicine among the general public and healthcare professionals alike. Our mission is to shed light on the myriad possibilities that Nuclear Medicine offers for patient care and well-being.
 
