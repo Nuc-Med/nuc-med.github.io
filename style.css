@@ -12,7 +12,7 @@ body {
 header {
     background-color: #007bff;
     color: white;
-    text-align: center;
+    text-align: center; /* Center text */
     padding: 20px;
 }
 
@@ -36,6 +36,6 @@ main {
 
 footer {
     background-color: #f0f0f0;
-    text-align: center;
+    text-align: center; /* Center text */
     padding: 10px;
 }
