@@ -33,6 +33,13 @@ main {
     margin: 0 auto;
     padding: 20px;
 }
+header.navbar {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
 
 footer {
     background-color: #f0f0f0;
