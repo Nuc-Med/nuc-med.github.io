@@ -6,16 +6,20 @@ body, h1, h2, p {
 
 /* Basic styling */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa; /* Light background color */
+    color: #333; /* Dark text color */
 }
 
+/* Header styling */
 header {
     background-color: #007bff;
     color: white;
-    text-align: center; /* Center text */
+    text-align: center;
     padding: 20px;
 }
 
+/* Navigation styling */
 nav ul {
     list-style-type: none;
     display: flex;
@@ -28,21 +32,45 @@ nav ul li {
     margin: 0 20px;
 }
 
+/* Main content styling */
 main {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-}
-header.navbar {
-    text-align: center;
-}
-
-footer {
-    text-align: center;
+    background-color: #fff; /* White background for main content */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle box shadow for depth */
+    border-radius: 8px; /* Rounded corners */
 }
 
+/* Footer styling */
 footer {
     background-color: #f0f0f0;
-    text-align: center; /* Center text */
+    text-align: center;
     padding: 10px;
+    margin-top: 20px; /* Add some space between content and footer */
+}
+
+/* Modernize the navigation bar */
+nav a {
+    text-decoration: none;
+    color: #333; /* Dark text color */
+    transition: color 0.3s ease-in-out; /* Smooth color transition */
+}
+
+nav a:hover {
+    color: #007bff; /* Highlight color on hover */
+}
+
+/* Add some subtle animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+main {
+    animation: fadeIn 0.5s ease-in-out; /* Fade-in effect for the main content */
 }
